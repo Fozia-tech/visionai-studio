@@ -1,0 +1,47 @@
+/* Background */
+.stApp{
+    background: linear-gradient(135deg,#FFF6FB,#F3F0FF);
+}
+
+/* Main Title */
+h1{
+    text-align:center;
+    color:#7C3AED;
+    font-size:48px;
+    font-weight:800;
+}
+
+/* Upload Box */
+[data-testid="stFileUploader"]{
+    border:3px dashed #A855F7;
+    border-radius:20px;
+    padding:20px;
+    background:white;
+}
+
+/* Buttons */
+.stButton>button{
+    width:100%;
+    border:none;
+    border-radius:15px;
+    background:linear-gradient(90deg,#8B5CF6,#EC4899);
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    padding:12px;
+    transition:0.3s;
+}
+
+.stButton>button:hover{
+    transform:scale(1.04);
+}
+
+/* Images */
+img{
+    border-radius:20px;
+}
+
+/* Success Box */
+.stSuccess{
+    border-radius:15px;
+}
